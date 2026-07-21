@@ -1,4 +1,4 @@
-# 🌸 NeonMind: Bóveda de Links & Compañera AI Lily
+# NeonMind: Bóveda de Links & Compañera AI Lily
 
 **NeonMind** es un ecosistema de escritorio unificado, moderno e independiente diseñado para llevar tu productividad y gestión de información al siguiente nivel. Construido sobre la robusta arquitectura de **Tauri 2, React 19 y TypeScript**, integra un avanzado gestor de enlaces persistentes (Bóveda de Links), un bloc de notas mentales dinámico y a **Lily**, una compañera virtual inteligente y local dotada de inteligencia emocional y capacidades de automatización.
 
@@ -141,3 +141,4 @@ Lily no solo habla y escucha, sino que puede interactuar directamente con tu sis
 1. Asegúrate de tener Ollama activo (busca el icono de la llama en la bandeja del sistema de Windows).
 2. Si cerraste accidentalmente el servicio, puedes iniciarlo escribiendo `ollama serve` en la consola de comandos de Windows, o simplemente reiniciando la aplicación para que Tauri lo intente arrancar automáticamente.
 3. Verifica que el modelo esté descargado ejecutando `ollama list` en una terminal. Deberías ver `huihui_ai/qwen3-abliterated:0.6b` en la lista.
+
