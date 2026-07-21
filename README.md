@@ -1,4 +1,4 @@
-# NeonMind: Bóveda de Links & Compañera AI Lily
+# NeonMind: Bóveda de Links, Notas Mentales e IA incorporada
 
 **NeonMind** es un ecosistema de escritorio unificado, moderno e independiente diseñado para llevar tu productividad y gestión de información al siguiente nivel. Construido sobre la robusta arquitectura de **Tauri 2, React 19 y TypeScript**, integra un avanzado gestor de enlaces persistentes (Bóveda de Links), un bloc de notas mentales dinámico y a **Lily**, una compañera virtual inteligente y local dotada de inteligencia emocional y capacidades de automatización.
 
