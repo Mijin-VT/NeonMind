@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mijin-VT/NeonMind/refs/heads/main/ChatGPT%20Image%2015%20jul%202026%2C%2022_41_40.png" alt="NeonMind Logo" width="100%">
+  <img
+    src="https://raw.githubusercontent.com/Mijin-VT/NeonMind/main/ChatGPT%20Image%2015%20jul%202026%2C%2022_41_40.png"
+    alt="NeonMind Logo"
+    width="300"
+    height="300"
+  >
 </p>
 
 # NeonMind: Bóveda de Links, Notas Mentales e IA incorporada
