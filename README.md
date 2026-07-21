@@ -39,21 +39,21 @@ La aplicación está diseñada bajo una estructura híbrida desacoplada de tres 
 
 ```mermaid
 graph TD
-    subgraph Frontend [Capa de Interfaz (Desktop App)]
-        A[React 19 + TypeScript + Tailwind]
+    subgraph Frontend ["Capa de Interfaz (Desktop App)"]
+        A["React 19 + TypeScript + Tailwind"]
     end
 
-    subgraph Core [Núcleo de Escritorio - Tauri 2]
-        B[Tauri Rust Core]
-        D[(SQLite: links.db)]
+    subgraph Core ["Núcleo de Escritorio - Tauri 2"]
+        B["Tauri Rust Core"]
+        D[("SQLite: links.db")]
     end
 
-    subgraph Backend [Servidor Local de IA - lily-backend]
-        C[FastAPI Server Python]
-        E[Ollama Service]
-        F[(Vector DB: ChromaDB)]
-        G[Faster Whisper STT]
-        H[Kokoro ONNX TTS]
+    subgraph Backend ["Servidor Local de IA - lily-backend"]
+        C["FastAPI Server Python"]
+        E["Ollama Service"]
+        F[("Vector DB: ChromaDB")]
+        G["Faster Whisper STT"]
+        H["Kokoro ONNX TTS"]
     end
 
     A <-->|IPC Invokes / Tauri Commands| B
