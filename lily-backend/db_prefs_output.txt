@@ -1,0 +1,5 @@
+PREFERENCES IN LILY_MEMORY.DB:
+User: test_user_carlos | Key: user_name | Value: Carlos
+User: default_user | Key: user_name | Value: Kine
+User: default_user | Key: conversation_summary | Value: El usuario y el assistant saludaron entre sí, intercambiando saludos amistosos. El usuario luego preguntó sobre sus enlaces guardados y收到了关于打开YouTube并搜索名为“Gemini 🌟 【西班牙语翻唱】Keirame VT ft. KrexVT (Dixie Flatline)”的视频的信息。assistant最后回应说已经帮用户在YouTube上准备好了音乐。
+User: default_user | Key: lily_lang_mode | Value: en

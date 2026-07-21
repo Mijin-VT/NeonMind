@@ -1,0 +1,4 @@
+MODEL: qwen2.5:7b-instruct
+DETECTED LANG SETTING: Language.ENGLISH
+RESPONSE: Sailing on a cloud, Kine. How's your day going? 🌆😉
+EMOTION: EmotionType.NEUTRAL

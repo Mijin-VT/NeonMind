@@ -1,0 +1,5 @@
+npm run tauri dev
+
+Nota: Asegúrate de tener Rust y las herramientas de compilación de C++ instaladas en tu equipo para que Tauri pueda compilar el ejecutable localmente.
+
+Motor TTS anterior kokoro-onnx
