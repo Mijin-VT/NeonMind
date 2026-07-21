@@ -89,11 +89,28 @@ graph TD
 
 ## 📋 Requisitos de Sistema
 
+### 🖥️ Especificaciones de Hardware (PC)
+
+Para ejecutar la aplicación local de **NeonMind** y su compañera de IA **Lily** sin sufrir de lentitud o congelamientos, se sugieren las siguientes especificaciones:
+
+| Componente | Requisitos Mínimos (Ejecución por CPU) | Requisitos Recomendados (Aceleración por GPU) |
+| :--- | :--- | :--- |
+| **Procesador (CPU)** | Intel Core i3 / AMD Ryzen 3 (64 bits) | Intel Core i5 / AMD Ryzen 5 o superior |
+| **Memoria RAM** | **8 GB RAM** (los modelos consumen ~1.5 GB en ejecución) | **16 GB RAM** (permite ejecutar modelos conversacionales más grandes como `llama3` o `qwen2.5`) |
+| **Almacenamiento** | **4 GB** de espacio disponible (SSD recomendado) | **10 GB** o más de espacio disponible (SSD) |
+| **Tarjeta Gráfica (GPU)** | Gráficos integrados (Intel HD / AMD Radeon) | **NVIDIA GeForce** (GTX 1060, RTX 2060 o superior) con soporte **CUDA** |
+
+> [!NOTE]
+> Si utilizas una GPU NVIDIA con CUDA configurado, la transcripción de voz (Faster Whisper) y el procesamiento de Ollama responderán casi instantáneamente. En caso contrario, la aplicación funcionará por CPU con un tiempo de procesamiento ligeramente mayor.
+
+### ⚙️ Entorno de Desarrollo y Compilación
+
+Si deseas clonar el código y correr el proyecto en modo desarrollo, necesitas tener instalado:
 * **Sistema Operativo:** Windows 10 u 11 (64 bits).
 * **Node.js:** Versión LTS recomendada (v18 o superior).
-* **Python:** Versión 3.10 o 3.11 (requerido para las librerías de IA y bindings de PyAudio/ONNX).
+* **Python:** Versión 3.10 o 3.11 (requerido para las librerías de IA locales).
 * **Ollama:** Instalado y corriendo en tu máquina.
-* **Rust & Visual Studio Build Tools:** Compiladores C++ requeridos para la compilación de Tauri 2 y dependencias nativas de Cargo.
+* **Rust & Visual Studio Build Tools:** Compiladores C++ para compilar Tauri 2 y dependencias nativas de Cargo.
 
 ---
 
