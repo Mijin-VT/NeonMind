@@ -13,6 +13,11 @@
 
 Lily funciona de manera **100% local y offline**, sin enviar tus datos a servidores externos, garantizando tu absoluta privacidad a través del procesamiento local de modelos de Inteligencia Artificial (LLM, RAG, TTS y STT).
 
+> [!TIP]
+> **🚀 ¡Descarga Directa del Instalador de Producción!**  
+> Puedes descargar la última versión ya compilada y lista para ejecutar en tu sistema Windows (x64) haciendo clic en:  
+> 📥 **[Descargar NeonMind v0.1.0 (Setup.exe)](https://github.com/Mijin-VT/NeonMind/releases/download/0.1/NeonMind-0.1.0-Setup.exe)**
+
 ---
 
 ## 🚀 Características Principales
