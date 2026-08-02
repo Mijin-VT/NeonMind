@@ -39,7 +39,7 @@ Lily funciona de manera **100% local y offline**, sin enviar tus datos a servido
 * **Escucha Activa en Segundo Plano (Wake Word):** Lily cuenta con detección constante de la palabra clave **"LILY"** (Wake Word Engine) para que puedas interactuar por voz sin necesidad de tocar la pantalla o el teclado.
 
 ### 🎭 Inteligencia Emocional y Personalización
-* **Estados Emocionales Dinámicos:** Lily experimenta y cambia su estado de ánimo en base a tus conversaciones. Los estados incluyen: *Feliz 😊, Triste 😢, Enojada 😠, Emocionada 🤩, Neutral 😐, Cariñosa 🥰, Juguetona 😜, Preocupada 😟 y Sorprendida 😲*.
+* **Estados Emocionales Dinámicos:** Lily experimenta y cambia su estado de ánimo en base a tus conversaciones. Los estados incluyen: *Feliz 😊, Triste 😢, Enojada 😠, Emocionada 🤩, Neutral 😐, Preocupada 😟 y Sorprendida 😲*.
 * **Interfaz Reactiva Emocional:** El chat de usuario se adapta visualmente mediante gradientes animados (Framer Motion) y emojis que reflejan el estado de ánimo actual de Lily.
 * **TTS Sensible a Emociones:** El tono, velocidad y expresividad de la voz generada por el motor de síntesis de Kokoro se modula dinámicamente según la emoción actual de Lily.
 * **Personalidades Intercambiables:** Puedes cambiar tanto el perfil de personalidad del LLM como su estilo de interacción a través del menú de configuraciones rápidas.
