@@ -31,19 +31,21 @@ Lily funciona de manera **100% local y offline**, sin enviar tus datos a servido
 * **Copias de Seguridad (Backups):** Exportación e importación de tu base de datos (`links.db`) con un solo clic a través de diálogos nativos del sistema.
 * **Arranque con Windows (Autostart):** Opción configurable desde la interfaz para registrar la aplicación en el inicio de Windows a través del registro nativo de Windows (HKCU Run).
 
-### 🧠 Lily: Tu Compañera Virtual de IA
-* **IA Conversacional Local:** Procesamiento del lenguaje mediante **Ollama**, configurado por defecto con el modelo ligero y optimizado `huihui_ai/qwen3-abliterated:0.6b` (ampliable a cualquier modelo local).
-* **Base de Conocimiento Vectorial (RAG):** Lily lee, indexa y recuerda automáticamente los enlaces de tu bóveda, tus notas mentales y cualquier documento de texto (`.txt`, `.md`, `.pdf`) que subas. Utiliza **ChromaDB** para realizar búsquedas semánticas y responder preguntas basándose en tu información personal.
-* **Speech-to-Text (STT) Nativo:** Transcripción de voz instantánea alimentada por **Faster Whisper** (modelo `base` optimizado para ejecución en CPU o aceleración por GPU con CUDA).
-* **Text-to-Speech (TTS) Expresivo:** Síntesis de voz ultra-realista de calidad humana utilizando el motor **Kokoro v1.0 (ONNX)** con perfiles de voz nativos.
-* **Escucha Activa en Segundo Plano (Wake Word):** Lily cuenta con detección constante de la palabra clave **"LILY"** (Wake Word Engine) para que puedas interactuar por voz sin necesidad de tocar la pantalla o el teclado.
+## 🧠 Sofía: Tu Asistente Virtual Profesional de IA
 
-### 🎭 Inteligencia Emocional y Personalización
-* **Estados Emocionales Dinámicos:** Lily experimenta y cambia su estado de ánimo en base a tus conversaciones. Los estados incluyen: *Feliz 😊, Triste 😢, Enojada 😠, Emocionada 🤩, Neutral 😐, Preocupada 😟 y Sorprendida 😲*.
-* **Interfaz Reactiva Emocional:** El chat de usuario se adapta visualmente mediante gradientes animados (Framer Motion) y emojis que reflejan el estado de ánimo actual de Lily.
-* **TTS Sensible a Emociones:** El tono, velocidad y expresividad de la voz generada por el motor de síntesis de Kokoro se modula dinámicamente según la emoción actual de Lily.
-* **Personalidades Intercambiables:** Puedes cambiar tanto el perfil de personalidad del LLM como su estilo de interacción a través del menú de configuraciones rápidas.
-* **Memoria a Largo Plazo y Resúmenes:** Sistema inteligente de almacenamiento y generación de resúmenes de conversación e historiales emocionales.
+- **IA Conversacional Local**: Procesamiento del lenguaje mediante Ollama, configurado por defecto con el modelo ligero y optimizado `huihui_ai/qwen3-abliterated:0.6b` (ampliable a cualquier modelo local).
+- **Base de Conocimiento Vectorial (RAG)**: Sofía lee, indexa y recuerda automáticamente los enlaces de tu bóveda, tus notas y cualquier documento de texto (`.txt`, `.md`, `.pdf`) que subas. Utiliza ChromaDB para realizar búsquedas semánticas y responder preguntas basándose en tu información personal y profesional.
+- **Speech-to-Text (STT) Nativo**: Transcripción de voz instantánea alimentada por Faster Whisper (modelo base optimizado para ejecución en CPU o aceleración por GPU con CUDA).
+- **Text-to-Speech (TTS) Profesional**: Síntesis de voz clara y natural de calidad humana utilizando el motor Kokoro v1.0 (ONNX) con perfiles de voz nativos.
+- **Escucha Activa en Segundo Plano (Wake Word)**: Sofía cuenta con detección constante de la palabra clave **"SOFÍA"** (Wake Word Engine) para que puedas interactuar por voz sin necesidad de tocar la pantalla o el teclado.
+
+### 🎭 Capacidades Profesionales y de Adaptación
+
+- **Adaptación al Contexto**: Sofía ajusta su tono y estilo de respuesta según el tipo de solicitud (formal, semiformal o más directo), manteniendo siempre un enfoque profesional.
+- **Interfaz Clara y Eficiente**: El chat se presenta de forma limpia y organizada, priorizando la legibilidad y la estructura de la información.
+- **TTS Neutro y Profesional**: El tono, velocidad y claridad de la voz generada por el motor de síntesis de Kokoro se mantienen consistentes y profesionales, sin modulaciones emocionales exageradas.
+- **Estilos de Comunicación Intercambiables**: Puedes ajustar el nivel de formalidad del asistente a través del menú de configuraciones rápidas (Estándar profesional, Más formal o Más accesible).
+- **Memoria a Largo Plazo y Resúmenes**: Sistema inteligente de almacenamiento y generación de resúmenes de conversación, tareas pendientes e información relevante para un seguimiento profesional eficiente.
 
 ---
 
